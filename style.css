@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.input-section input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+.input-section button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #1db954;
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #eee;
+  margin: 5px 0;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+}
+
+li button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 0 8px;
+  cursor: pointer;
+  border-radius: 3px;
+}
